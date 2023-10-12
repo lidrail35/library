@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;  
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.header__icon-login {
+  width: 28px;
+  height: 28px;
+  background-color: aquamarine; 
+}
